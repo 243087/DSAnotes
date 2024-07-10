@@ -1,4 +1,4 @@
-package com.rahul.kumar.scaler.Day9_ArrayList;
+ package com.rahul.kumar.scaler.Day9_ArrayList;
 
 import java.util.ArrayList;
 
