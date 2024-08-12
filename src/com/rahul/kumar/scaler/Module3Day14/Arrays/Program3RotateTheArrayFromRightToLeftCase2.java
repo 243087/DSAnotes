@@ -22,7 +22,7 @@ public class Program3RotateTheArrayFromRightToLeftCase2 {
 			arr[end] = temp;
 			start++;
 			end--;
-		}
+		}                                                        //  TC = O[N]                SC = O[1]
 		return arr;
 	}
 	public static void main(String[] args) {

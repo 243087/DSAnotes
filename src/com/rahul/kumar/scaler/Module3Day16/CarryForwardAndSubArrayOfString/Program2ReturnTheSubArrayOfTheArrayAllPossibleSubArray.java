@@ -13,9 +13,17 @@ public class Program2ReturnTheSubArrayOfTheArrayAllPossibleSubArray {
 				int[] subArray = new int[e - s + 1];
 				for(int i=s;i<=e;i++) {
 					subArray[i - s] = arr[i];
-				}
+				} 
 				newArr[index++] = subArray;
 			}
+		}
+		for(int j=0;j<newArr.length;j++) {
+			for(int k=0;k<newArr[j].length;k++) {
+				System.out.print(newArr[j][k]+" ");
+
+			}
+			
+			System.out.println();
 		}
 	}
 	public static void main(String[] args) {

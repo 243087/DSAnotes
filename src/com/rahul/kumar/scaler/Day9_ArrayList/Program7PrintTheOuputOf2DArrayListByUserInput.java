@@ -15,6 +15,7 @@ public class Program7PrintTheOuputOf2DArrayListByUserInput {
 			System.out.println("Enter the column in "+i+" row ");
 			int col = sc.nextInt();
 			ArrayList<Integer> list = new ArrayList<>();
+			System.out.println("Enter the elements in "+i+" column");
 			for(int j=0;j<col;j++) {
 				int value = sc.nextInt();
 				list.add(value);

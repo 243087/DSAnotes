@@ -2,7 +2,7 @@ package com.rahul.kumar.scaler.Day8_2DArrayQuestion;
 
 import java.util.Scanner;
 
-public class Program3AddMatrixElementAndPrintRowWise {
+public class Program3InsertMatrixElementAndPrintRowWise {
 
 	static void printWholeMatrixRowWise(int [][]matrix,int row,int col) {
 

@@ -1,6 +1,7 @@
 package com.rahul.kumar.scaler.Day7_1DArrayQuestion;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Program2PrintTheSumOfAllElementsOfArray {
@@ -21,7 +22,7 @@ public class Program2PrintTheSumOfAllElementsOfArray {
 		for(int i=0;i<arr.length;i++) {
 			arr[i] = sc.nextInt();
 		}
-	//	System.out.print("Array arr is"+arr.toString());
+		System.out.println("Array arr is"+Arrays.toString(arr));
 		System.out.println(sumOfArray(arr));
 	}
 }

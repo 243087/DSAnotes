@@ -10,9 +10,17 @@ public class Program7CountOccuranceOfEachElementInArray {
 	static int [] checkEachElement(int [] arr) {
 		int [] newArr = new int[arr.length];
 		for(int i=0;i<arr.length;i++) {
-			newArr[i] = Program6CountOccuranceOfParticularElementInArray.checkElement(arr,arr[i]);	
+			newArr[i] =checkElement(arr,arr[i]);	
 		}
 		return newArr;
+	}
+	static int checkElement(int [] arr, int check) {
+		int count =0;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]==check)
+				count++;
+		}
+		return count;
 	}
 	public static void main(String[] args) {
 

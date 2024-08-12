@@ -9,7 +9,7 @@ public class Program4CreatePrefixSumOfEvenIndexOnly {
 		
 		for(int i=1;i<arr.length;i++) {
 			int val =0;
-			if(i%2==1) {
+			if(i%2==0) {
 				val = arr[i];
 			}
 			newArr[i] = newArr[i-1] +val;

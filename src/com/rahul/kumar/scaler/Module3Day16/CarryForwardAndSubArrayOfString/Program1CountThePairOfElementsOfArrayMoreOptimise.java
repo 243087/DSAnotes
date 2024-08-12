@@ -13,7 +13,7 @@ public class Program1CountThePairOfElementsOfArrayMoreOptimise {
 				}
 			}
 		}
-		System.out.println(count);
+		System.out.println(count);                          //  Time Complexity = O[N*N]   ||  Space Complexity  = O[1]
 	}
 	public static void main(String[] args) {
 		String str ="acgdgag";

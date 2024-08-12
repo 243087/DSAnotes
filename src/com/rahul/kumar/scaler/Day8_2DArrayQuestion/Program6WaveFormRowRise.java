@@ -1,6 +1,6 @@
 package com.rahul.kumar.scaler.Day8_2DArrayQuestion;
 
-public class Program6WaveForm {
+public class Program6WaveFormRowRise {
 
 	static void printWave(int [][]matrix) {
 		int row = matrix.length;
@@ -18,10 +18,10 @@ public class Program6WaveForm {
 		}
 	}
 	public static void main(String[] args) {
-		int [][]matrix =  {{1,2,4,5},
-		                  {14,12,43,44},
-		                  {65,20,87,3},
-		                  {23,3,0,9}};
+		int [][]matrix =  {{4,1,2},
+		                  {7,10,11},
+		                  {3,7,7},
+		                  };
 		
 		printWave(matrix);
 	}

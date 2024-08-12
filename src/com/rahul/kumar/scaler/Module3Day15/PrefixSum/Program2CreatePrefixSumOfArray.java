@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Program2CreatePrefixSumOfArray {
 	static int [] prefixSum(int [] arr){
 		int [] newArr = new int[arr.length];
-		for(int i=0;i<arr.length;i++) {   // this for loop is basically for the adding sum value int nwly created array newArr 
+		for(int i=0;i<arr.length;i++) {   // this for loop is basically for the adding sum value into newly created array newArr 
 			int sum =0;
 			for(int j=0;j<=i;j++) {
 				sum += arr[j];

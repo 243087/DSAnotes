@@ -11,7 +11,7 @@ public class Program3GivenAStringPrintTheCountOfUpperCase {
 	//		if(str.charAt(i)>=65 && str.charAt(i)<=90) {
 			if(str.charAt(i)>='A'  && str.charAt(i)<='Z') {
 				count++;
-			value += str.charAt(i);
+			    value += str.charAt(i);
 			}
 		}
 		System.out.println("Total is "+count+" and value is "+value);

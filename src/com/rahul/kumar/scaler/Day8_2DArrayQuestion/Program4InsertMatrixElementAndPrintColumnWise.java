@@ -2,13 +2,13 @@ package com.rahul.kumar.scaler.Day8_2DArrayQuestion;
 
 import java.util.Scanner;
 
-public class Program4AddMatrixElementAndPrintColumnWise {
+public class Program4InsertMatrixElementAndPrintColumnWise {
 
 	static void printWholeMatrixColumnWise(int [][]matrix,int row,int col) {
 		System.out.println("Matrix is ");
-		for(int i=0;i<col;i++) {
-			for(int j=0;j<row;j++) {
-				System.out.print(matrix[j][i]+" ");                               // 1 2 3         1 4 7
+		for(int j=0;j<col;j++) {
+			for(int i=0;i<row;i++) {
+				System.out.print(matrix[i][j]+" ");                               // 1 2 3         1 4 7
 			}                                                                     // 4 5 6    ==>  2 5 8
 			System.out.println();                                                 // 7 8 9         3 6 9
 		}

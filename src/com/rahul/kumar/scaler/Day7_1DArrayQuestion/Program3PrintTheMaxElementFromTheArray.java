@@ -1,5 +1,6 @@
 package com.rahul.kumar.scaler.Day7_1DArrayQuestion;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Program3PrintTheMaxElementFromTheArray {
@@ -21,7 +22,7 @@ public class Program3PrintTheMaxElementFromTheArray {
 		for(int i=0;i<arr.length;i++) {
 			arr[i] = sc.nextInt();
 		}
-	//	System.out.print("Array arr is"+arr.toString());
+		System.out.println("Array arr is"+Arrays.toString(arr));
 		System.out.println(maxOfArray(arr));
 	}
 }

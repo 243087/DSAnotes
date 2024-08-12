@@ -13,7 +13,7 @@ public class Program2ReverseTheArrayFromMentionedIndexToAnotherIndex {
 			first++;
 			last--;
 		}
-		return reverseArray;
+		return reverseArray;                                 //   TC = O[N]                   SC = O[1]
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
