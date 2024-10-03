@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class Program3GivenTwoHashSetAsInputPrintTheirCommonElement {
 	
 	static void printCommonElement(HashSet<Integer> hs1,HashSet<Integer> hs2) {
-	for(int print:hs1) { 
+	for(Integer print:hs1) { 
 		if(hs2.contains(print)) {
 			System.out.print(print+" ");
 		}

@@ -11,15 +11,15 @@ public class Program4PerformAllTheBasicOperationOfHashMap {
 	    hm.put("Gaya", 90);
 	    hm.put("Maldiv", 10);
 	    
-//	    System.out.println(hm);
-//	    System.out.println(hm.size());
-	//    System.out.println(hm.get("Sasaram")); // to get the value using the key 
+	  /*  System.out.println(hm);
+	    System.out.println(hm.size());
+        System.out.println(hm.get("Sasaram")); // to get the value using the key 
 	    
 	    if(hm.containsKey("Goa")) {
-	//    System.out.println(hm.get("Goa"));
+	    System.out.println(hm.get("Goa"));
 	    }
 	    hm.remove("Maldiv");
-//	    System.out.println(hm);
+	    System.out.println(hm);*/
 	    
 	    for(String print : hm.keySet()) {
 	    	System.out.println(print+" "+hm.get(print));

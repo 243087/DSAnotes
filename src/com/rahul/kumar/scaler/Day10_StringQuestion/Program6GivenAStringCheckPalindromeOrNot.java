@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Program6GivenAStringCheckPalindromeOrNot {
 	
 	static void palindromeCheck(String str) {
-		String original = str;
+
 		String rev = "";
 		for(int i=str.length()-1;i>=0;i--) {
 			rev +=str.charAt(i);
 		}
-		if(original.equalsIgnoreCase(rev)) {
+		if(str.equalsIgnoreCase(rev)) {
 			System.out.println("Yes");
 		}
 		else {

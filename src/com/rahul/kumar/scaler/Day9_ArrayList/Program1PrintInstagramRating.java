@@ -14,7 +14,7 @@ public class Program1PrintInstagramRating {
 			int value = sc.nextInt();
 			if(value<0) {
 				break;
-			}
+			} 
 			al.add(value);
 		}
 		System.out.println("Direct printing "+al);

@@ -4,7 +4,6 @@ public class Program1PrintFirstRowOfMatrix {
 
 
 	static void printFirstRow(int [][]matrix) {
-		int row = matrix.length;
 		int col = matrix[0].length;
 		System.out.println("First Row of matrix");
 		for(int i=0;i<col;i++) {			
