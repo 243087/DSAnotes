@@ -6,10 +6,10 @@ public class Program5_ReverseTheLinkedList {
 		Node pre = null;
 		Node curr = head;
 		while(curr!=null) {
-			Node next = curr.next;
+			Node temp = curr.next;
 			curr.next = pre;
 			pre = curr;
-			curr = next;
+			curr = temp;
 		}
 		return pre;
 	}

@@ -10,7 +10,7 @@ public class Program4_DeletionOnLinkedListTheAllOccuranceOfElement {
 	static Node deleteElement(Node head,int value) {
 		if(head==null)
 			return null;
-		while(head.value == value && head!=null) {  // this while basically checks if the first element is delvalue then move to 
+		while(head.value == value && head!=null) {  // this will basically checks if the first element is delvalue then move to 
 			head = head.next;                       // next element, Suppose all the elements are delVaue then this loop will remove
 		}                                           // all the elements thats why again we are checking null head after this loop
 		if (head == null) {

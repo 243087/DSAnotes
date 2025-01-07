@@ -6,7 +6,7 @@ public class Program8CheckGivenArrayIsStrictlyIncreasingOrNot {
 
 	static boolean strictlyIncrease(int [] arr) {
 		for(int i=0;i<arr.length-1;i++) {
-			if(arr[i]>=arr[i+1])
+			if(i+1<arr.length && arr[i]>=arr[i+1])
 				return false;
 		}
 		return true;

@@ -37,7 +37,7 @@ public class Program3_InsertionInLinkedListAtKthIndex {
 	       head.next.next.next.next = new Node(8);
 	       head.next.next.next.next.next = new Node(3);
 	       
-	       int index = 9;
+	       int index = 10;
 	       int value = 87;
 	       Node element = insertElement(head,value,index);
 	       printList(element);

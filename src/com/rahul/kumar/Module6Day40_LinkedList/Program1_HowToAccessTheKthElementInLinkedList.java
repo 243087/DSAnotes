@@ -22,7 +22,7 @@ public class Program1_HowToAccessTheKthElementInLinkedList {
        head.next.next.next.next = new Node(8);
        head.next.next.next.next.next = new Node(3);
        
-       int k = 8;
+       int k = 4;
        int element = kthElement(head,k);
        System.out.println("Element at index "+k+" is "+element);
     }

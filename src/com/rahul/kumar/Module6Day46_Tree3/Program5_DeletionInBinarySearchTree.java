@@ -20,7 +20,7 @@ public class Program5_DeletionInBinarySearchTree {
 			
 			// find largest node on the left of BST
 			TreeNode largestNode = findLargestElement(root.left);
-	//  once we get th	e largest node replace the value to the root node of BST		
+	//  once we get the largest node replace the value to the root node of BST		
 			root.val = largestNode.val;
 			root.left = deleteKNode(root.left,root.val);
 		}

@@ -14,7 +14,8 @@ public class Program5_KthMinimumElementInArrayUsingSelectionSort {
 			}
 			swap(arr,i,minIndex);
 		}
-		System.out.println(index+" min element in array is "+arr[index-1]);
+		System.out.println("Before sorting"+Arrays.toString(arr));
+		System.out.println(index+"st min element in array is "+arr[index-1]);
 	}
 	static void swap(int []arr, int i,int minIndex) {
 		int temp = arr[i];

@@ -12,7 +12,7 @@ public class Program3_BinaryTreePostOrderTraversal {
             return;
 		printInOrder(node.left);
 		printInOrder(node.right);
-		System.out.println(node.value);                            //           TC = O[N]            SC = O[H]
+		System.out.print(node.value+" ");                            //           TC = O[N]            SC = O[H]
 	}
 	public static void main(String[] args) {
 		Program3_BinaryTreePostOrderTraversal  tree = new Program3_BinaryTreePostOrderTraversal();

@@ -1,5 +1,6 @@
 package com.rahul.kumar.Module6Day40_LinkedList;
 
+// Delete the first occurrence of value X in the given lined-list. If element is not present,leave as is.
 public class Program4_DeletionOfLinkedListTheFirstOccuranceOfElementWhenIndexIsGiven {
 
 	static Node deleteElement(Node head,int delIndex) {

@@ -17,9 +17,9 @@ public class Program1_FindTheSumOfAllPossibleSubArrayInOptimisedWayUsingPrefixSu
 			 for(int e=s;e<arr.length;e++) {
 				 int arrSum =0;
 				if(s==0)
-					arrSum +=preSum[e];
+					arrSum =preSum[e];
 				else
-					arrSum +=preSum[e] - preSum[s-1];
+					arrSum =preSum[e] - preSum[s-1];
 				 totalSum += arrSum;                              // TC = O[N^2]      SC = O[N]
 			 }
 	     }

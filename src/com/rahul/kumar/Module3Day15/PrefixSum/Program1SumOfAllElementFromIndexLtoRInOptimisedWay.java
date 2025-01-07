@@ -17,9 +17,9 @@ public class Program1SumOfAllElementFromIndexLtoRInOptimisedWay {
 			int r =index[j][1];
 			int sum =0;
 			if(l == 0)
-				sum +=preSumArr[r];
+				sum = preSumArr[r];
 			else
-				sum += preSumArr[r] - preSumArr[l-1];
+				sum = preSumArr[r] - preSumArr[l-1];
 			
 			System.out.print(sum+" ");                         //  Time complexity =O[M+N]    || Space complexity = O[N]
 		}

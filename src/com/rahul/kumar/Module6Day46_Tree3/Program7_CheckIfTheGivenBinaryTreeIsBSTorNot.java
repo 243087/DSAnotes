@@ -7,7 +7,7 @@ public class Program7_CheckIfTheGivenBinaryTreeIsBSTorNot {
 	static boolean isBST(TreeNode root) {
 		ArrayList<Integer>  al = new ArrayList<>();
 		inOrderTraversal(root,al);
-		return isSorted(al);
+		return isSorted(al);                                      //        TC = O[N]        SC=  O[N]
 	}
 	static void inOrderTraversal(TreeNode root, ArrayList<Integer> al) {
 		if(root==null)

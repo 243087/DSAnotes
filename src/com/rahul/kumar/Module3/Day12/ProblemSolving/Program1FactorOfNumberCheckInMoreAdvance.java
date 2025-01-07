@@ -16,8 +16,9 @@ public class Program1FactorOfNumberCheckInMoreAdvance {
 					 count +=1;
 				else
 					count +=2;
-			}
+			}                                                      //         TC = O[N^1/2]
 		}
 		System.out.println("factor of "+num+" is: "+count);
 	}
 }
+ 

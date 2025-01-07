@@ -8,7 +8,7 @@ public class Program3_CountTheNobleIntegerForRepeatedElementAlso {
 		Arrays.sort(arr);
 		System.out.println("Sorted array is "+Arrays.toString(arr));
 		int nobleCount =0;
-		int smaller =0;
+		int smaller =-1;
 		int preVal = -Integer.MAX_VALUE;
 		for(int i=0;i<arr.length;i++) {
 			int currVal = arr[i];

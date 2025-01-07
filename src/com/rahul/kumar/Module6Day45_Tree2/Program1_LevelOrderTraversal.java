@@ -13,7 +13,7 @@ public class Program1_LevelOrderTraversal {                                //   
         
         // Initialize queue to store node and its depth
         Queue<Pair> queue = new LinkedList<>();
-        
+
         queue.add(new Pair(root,0));
 
         int maxDepth = 0;

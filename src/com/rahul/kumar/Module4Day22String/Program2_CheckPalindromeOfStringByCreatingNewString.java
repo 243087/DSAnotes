@@ -7,11 +7,11 @@ public class Program2_CheckPalindromeOfStringByCreatingNewString {
 
       static void palindromeCheck(String str) {
     	  String revStr = "";
-    	  for(int i=0;i<str.length();i++) {
-    		  revStr += str.charAt(str.length()-1-i);
+    	  for(int i=str.length()-1;i>=0;i--) {
+    		  revStr += str.charAt(i);
     	  }                                                     //   TC = O[N]       SC = O[N}
            System.out.println("Reversed string is "+revStr);
-    	  if(str.equals(revStr))
+    	  if(str.equalsIgnoreCase(revStr))
     		  System.out.println("Given string "+str+" is palindrome ");
     	  else
     		  System.out.println("Given string "+str+" is not palindrome");

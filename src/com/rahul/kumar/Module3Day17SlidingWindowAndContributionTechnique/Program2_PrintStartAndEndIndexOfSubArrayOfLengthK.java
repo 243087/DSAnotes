@@ -2,9 +2,9 @@ package com.rahul.kumar.Module3Day17SlidingWindowAndContributionTechnique;
 
 public class Program2_PrintStartAndEndIndexOfSubArrayOfLengthK {
 
-	static void printIndex(int []arr, int size) {
+	static void printIndex(int []arr, int k) {
 		int l=0;
-		int r=size-1;
+		int r=k-1;
 		while(r<arr.length) {
 			System.out.println(l+" - "+r);                     //       TC = O[N]     SC = O[1]
 			l++;

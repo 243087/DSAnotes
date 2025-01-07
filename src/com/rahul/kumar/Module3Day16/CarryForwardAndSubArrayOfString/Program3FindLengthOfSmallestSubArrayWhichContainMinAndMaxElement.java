@@ -1,5 +1,8 @@
 package com.rahul.kumar.Module3Day16.CarryForwardAndSubArrayOfString;
 
+// <Question> : Given an array A[].Return the length of smallest subarray which contains both max and min element of the array.
+//     Eg     :  A = {3,6,2,1,6,5}   -> Ans 2(from index 3 to 4, it contains but max and min element of the array)
+//                          
 public class Program3FindLengthOfSmallestSubArrayWhichContainMinAndMaxElement {
 
 	static void findLength(int []arr) {

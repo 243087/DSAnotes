@@ -2,6 +2,11 @@ package com.rahul.kumar.Module4Day22String;
 
 public class Program6_FindTheLongestLengthPalindrome {
 
+	static int palindrome(String str) {
+		int oddLength = checkOddPalindrome(str);
+		int evnLength = checkEvenPalindrome(str);
+		return Math.max(oddLength,evnLength);
+	}
 	static int checkOddPalindrome(String str) {
 		int maxLength =0;
 		for(int center=0;center<str.length();center++) {
@@ -40,10 +45,7 @@ public class Program6_FindTheLongestLengthPalindrome {
     
 	public static void main(String[] args) {
 		String str = "aaaabaaa";
-//		System.out.println(str.length());
-		int oddMaxLength = checkOddPalindrome(str);
-		int evenMaxLength = checkEvenPalindrome(str);
-		System.out.println(Math.max(oddMaxLength, evenMaxLength));
+        System.out.println(palindrome(str));
 		
 	}
 }

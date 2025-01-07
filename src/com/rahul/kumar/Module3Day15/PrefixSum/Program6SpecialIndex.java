@@ -2,6 +2,8 @@ package com.rahul.kumar.Module3Day15.PrefixSum;
 
 import java.util.Arrays;
 
+// Question : Special indices are those after removing them, sum of all odd indexed elements equals sum of all even indexed elements
+// NOTE after removal of index indices will change
 public class Program6SpecialIndex {
 
 	 public static  void cntIndexesToMakeBalance(int arr[], int n) {

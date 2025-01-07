@@ -2,6 +2,8 @@ package com.rahul.kumar.Module3Day16.CarryForwardAndSubArrayOfString;
 
 import java.util.Arrays;
 
+//Given a string s of lowercase characters return the count of pairs (i,j) such that
+//i<j and s[i]== 'a' and s[j]= 'g'
 public class Program1CountThePairOfElementsOfArrayMostOptimiseUsingPrefixSum {
 
 	static void countPairString(String str) {
@@ -15,7 +17,7 @@ public class Program1CountThePairOfElementsOfArrayMostOptimiseUsingPrefixSum {
 		}
 		System.out.println("New array is : "+Arrays.toString(arr));
 		//Now create the preSum Array
-		preSumArr[0]=arr[0];
+		preSumArr[0]=arr[0];                                                //        TC = O[N]      SC = O[N]
 		for(int j=1;j<arr.length;j++) {
 			preSumArr[j] = preSumArr[j-1]+arr[j];
 		}

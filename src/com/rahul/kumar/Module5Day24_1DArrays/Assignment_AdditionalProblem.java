@@ -2,12 +2,9 @@ package com.rahul.kumar.Module5Day24_1DArrays;
 
 import java.util.Arrays;
 
-//Problem Description
-//Given a non-negative number represented as an array of digits, add 1 to the number ( increment the number represented by the digits ).
-//The digits are stored such that the most significant digit is at the head of the list.
+// <Problem Description> : Given a non-negative number represented as an array of digits, add 1 to the number(increment the number
+//represented by the digits).The digits are stored such that the most significant digit is at the head of the list.
 //NOTE: Certain things are intentionally left unclear in this question which you should practice asking the interviewer. For example: for this problem, the following are some good questions to ask :
-
-
 //Explanation 1:
 //Given vector is [1, 2, 3].
 //The returned vector should be [1, 2, 4] as 123 + 1 = 124.
@@ -48,14 +45,14 @@ public class Assignment_AdditionalProblem {
 
 	        // Create a new array without leading zeros
 	        int[] result = new int[size - start];
-	        for (int i = start; i < size; i++) {
+	        for (int i = start; i < result.length; i++) {
 	            result[i - start] = A[i];
 	        }
 
 	        return result;
 	    }
 	public static void main(String[] args) {
-			int []arr = {9,9,9};
+			int []arr = {2,9,9};
 			System.out.println(Arrays.toString(plusOne(arr)));
 	}
 }

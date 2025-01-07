@@ -18,9 +18,9 @@ public class Program1_FindTheMaxSubArraySumOfAllSubArrayUsingPrefixSum {
 		   for(int e=s;e<arr.length;e++) {
 			   int subSum =0;
 			   if(s==0)
-				    subSum += preSum[e];
+				    subSum = preSum[e];
 			   else
-				   subSum += preSum[e] - preSum[s-1];
+				   subSum = preSum[e] - preSum[s-1];
 			   
 			   result = Math.max(result,subSum);                  //             TC = O[N^2]           SC = O[N]
 			    
@@ -34,3 +34,4 @@ public class Program1_FindTheMaxSubArraySumOfAllSubArrayUsingPrefixSum {
 		maxSumByPrefixSum(arr);
 	}
 }
+
