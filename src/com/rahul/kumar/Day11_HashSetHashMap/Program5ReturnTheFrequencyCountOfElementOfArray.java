@@ -9,7 +9,7 @@ public class Program5ReturnTheFrequencyCountOfElementOfArray {
 		
 		for(int i=0;i<arr.length;i++) {
 			int key = arr[i];
-			if(hm.containsKey(arr[i])==false) {
+			if(!hm.containsKey(arr[i])) {
 				hm.put(key,1);
 			}
 			else {

@@ -2,6 +2,7 @@ package com.rahul.kumar.Module5Day33_Hashing1;
 
 import java.util.HashMap;
 
+//Given an array of N elements. Check if there exists a subarray with sum equal to 0.
 public class Program4_CountSubArraySumEqualToZeroOptimised {
 
 	static int subSum(int []arr) {

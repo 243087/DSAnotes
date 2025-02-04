@@ -26,7 +26,7 @@ public class Program3_CheckTheSequenceOfParenthesisIsValidOrNot {
 		return st.isEmpty();                     //               TC = O[N]             SC = O[N]
 	}
 	public static void main(String[] args) {
-		String input ="{[()]}";
+		String input ="{[({)]}";
 		boolean result = valid(input);
 		System.out.println(result);
 	}

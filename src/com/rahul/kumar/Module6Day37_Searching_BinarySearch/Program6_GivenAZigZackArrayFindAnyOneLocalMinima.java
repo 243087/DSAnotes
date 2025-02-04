@@ -29,7 +29,7 @@ public class Program6_GivenAZigZackArrayFindAnyOneLocalMinima {
 		return -1;
 	}
 	public static void main(String[] args) {
-		int []arr = {3,8,7,5,4,2,4,5,1};
+		int []arr = {3,6,1,0,9,15,8};
 		System.out.println(findMinima(arr));
 	}
 }

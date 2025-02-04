@@ -1,7 +1,7 @@
 package com.rahul.kumar.Module5Day25_2DArrays;
 
 import java.util.Scanner;
-
+//  <Question> : Given a now wise and cal wise sorted matrix.Find out whether k is present or not
 public class Program1_GivenSortedMatrixFindKisPresentOrNotInOptimisedWay {
 
 	static boolean findElement(int [][]arr,int k) {

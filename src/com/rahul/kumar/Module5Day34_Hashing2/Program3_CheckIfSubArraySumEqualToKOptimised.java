@@ -26,7 +26,7 @@ public class Program3_CheckIfSubArraySumEqualToKOptimised {
             }
             hs.add(preArr[i]);
         }
-        return false;
+        return false;                                       //            TC = O[N]           SC = O[N]
     }
 
     public static void main(String[] args) {

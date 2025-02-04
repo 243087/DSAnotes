@@ -17,7 +17,8 @@ public class Program1_ReturnTheSmallestNumberInTheFormOfArrayForAnyElement2 {
 	    	 else
 	    		 negFreqArr[-value]++;
 	     }
-	   
+	     System.out.println(Arrays.toString(posFreqArr));
+	     System.out.println(Arrays.toString(negFreqArr));
 	     // add for -ve digit element
 	     int k = 0;
 	     for(int i=9;i>=1;i--) {        // from -9 to -1 (negative numbers)

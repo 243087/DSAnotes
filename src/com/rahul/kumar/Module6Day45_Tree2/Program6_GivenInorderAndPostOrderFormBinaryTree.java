@@ -3,7 +3,7 @@ package com.rahul.kumar.Module6Day45_Tree2;
 import java.util.HashMap;
 
 public class Program6_GivenInorderAndPostOrderFormBinaryTree {
-
+	
 
     public static TreeNode buildTree(int[] A, int[] B) {
     	int n = A.length;

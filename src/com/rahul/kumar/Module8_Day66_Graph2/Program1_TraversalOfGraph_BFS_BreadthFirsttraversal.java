@@ -49,9 +49,9 @@ public class Program1_TraversalOfGraph_BFS_BreadthFirsttraversal {
 		
 	}
 	public static void main(String[] args) {
-		int V = 5; 
+		int V = 8; 
         int E = 6; 
-        int[][] edges = {{0, 1},{0, 2},{1, 2},{1, 3},{2, 4},{3, 4}};
+        int[][] edges = {{0, 1},{1, 2},{1, 4},{2, 3},{5, 6},{6, 7}};
             
         traversal(V,E,edges);
 	}

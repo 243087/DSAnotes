@@ -16,7 +16,7 @@ public class Program5_GivenArrayFindOutTheCountOfLeastNumberOfElementOccurances 
 				hm.put(key,freq+1);
 			}
 		}
-		
+		System.out.println(hm);
 		int minFreq = Integer.MAX_VALUE;
 		for(int i=0;i<arr.length;i++) {
 			int value = hm.get(arr[i]);

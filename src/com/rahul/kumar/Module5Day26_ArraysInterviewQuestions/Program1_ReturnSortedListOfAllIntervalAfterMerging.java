@@ -1,5 +1,7 @@
 package com.rahul.kumar.Module5Day26_ArraysInterviewQuestions;
 
+// <Question>: Given a sorted list of overlapping intervals,sorted based on start time, merge all and return sorted list of all
+//             intervals after merging
 public class Program1_ReturnSortedListOfAllIntervalAfterMerging {
 
 	static void mergeInterval(int [][]arr) {

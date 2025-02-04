@@ -13,6 +13,8 @@ public class Program4_FindTheKth_LargestElement_ForAllWindow_StartingFrom0thInde
 		
 		for(int i=0;i<al.size();i++) {
 			pq.add(al.get(i));
+			if(pq.size()<k)
+				ans.add(-1);
 			if(pq.size()>k) 
 				pq.remove();
 			

@@ -1,7 +1,7 @@
 package com.rahul.kumar.Module5Day25_2DArrays;
 
 import java.util.Scanner;
-
+// <Question> : Given a matrix which is row wise and column wise sorted.Find out whether k is present or not
 public class Program1_GivenSortedMatrixFindKisPresentOrNot_BruteForce {
 
 	static boolean findElement(int [][]arr,int k) {

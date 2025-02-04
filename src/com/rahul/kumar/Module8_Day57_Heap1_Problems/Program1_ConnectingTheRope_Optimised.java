@@ -7,7 +7,7 @@ public class Program1_ConnectingTheRope_Optimised {
 	static int minCost(int []arr) {
 		PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 		for(int i=0;i<arr.length;i++) {
-			minHeap.add(arr[i]);                             //   adding element to heap takes O[logN] and adding n element so O[NlogN]
+			minHeap.add(arr[i]);                       //   adding element to heap takes O[logN] and adding n element so O[NlogN]
 		}
 		int cost = 0;
 		while(minHeap.size()>1) {

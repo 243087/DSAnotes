@@ -1,8 +1,7 @@
 package com.rahul.kumar.Module5Day31_ModularArithmeticAndGCD;
 
-//Question 
-// Given N array elements. Find the count of pairs ( i, j ) such that ( arr [ i ] + arr [ j ] ) % m = 0.
-//NOTE : i !=  j and pair ( i, j ) is same as pair ( j, i )
+// <Question> : Given N array elements. Find the count of pairs ( i, j ) such that ( arr [ i ] + arr [ j ] ) % m = 0.
+//  NOTE :      i !=  j and pair ( i, j ) is same as pair ( j, i )
 
 public class Program1_FindTheCountOfPairs {
 

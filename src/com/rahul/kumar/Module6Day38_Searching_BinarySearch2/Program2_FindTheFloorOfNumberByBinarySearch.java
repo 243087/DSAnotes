@@ -17,7 +17,7 @@ public class Program2_FindTheFloorOfNumberByBinarySearch {
 			else
 				r  = mid-1;
 		}
-		return ans;
+		return ans;                             //              TC = O[logN]             SC = O[1]
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

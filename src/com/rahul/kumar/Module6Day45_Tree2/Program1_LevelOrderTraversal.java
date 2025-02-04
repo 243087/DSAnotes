@@ -16,14 +16,14 @@ public class Program1_LevelOrderTraversal {                                //   
 
         queue.add(new Pair(root,0));
 
-        int maxDepth = 0;
+        int maxDepth = 0;                                 
         
         while (!queue.isEmpty()) {
             Pair p = queue.remove();
             TreeNode node = p.node;
             int depth = p.depth;
 
-            // Update max depth encountered
+            // Update max depth 
             maxDepth =depth;
             
             if (!levels.containsKey(depth)) {
@@ -45,7 +45,7 @@ public class Program1_LevelOrderTraversal {                                //   
         // Print out the nodes level by level
         for (int i = 0; i <= maxDepth; i++) {
             ArrayList<Integer> al = levels.get(i);
-            System.out.println(al);                                  //            TC = O[N]      SC = O[N]
+            System.out.println(al);                             
         }
     }
 

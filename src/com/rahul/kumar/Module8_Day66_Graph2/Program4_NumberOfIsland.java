@@ -1,5 +1,6 @@
 package com.rahul.kumar.Module8_Day66_Graph2;
 
+// Asked in LinkedIn
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -24,7 +25,7 @@ public class Program4_NumberOfIsland {
 		}
 		return island;                                                  //      TC = O[R*C]     SC = O[R*C]
 	}
-	static void bfs(int r, int c,int row,int col,int [][]arr) {
+	static void bfs(int r, int c,int rowLength,int colLength,int [][]arr) {
 		Queue<FlipPair> queue = new LinkedList<>();
 		queue.add(new FlipPair(r,c));
 		
@@ -38,7 +39,7 @@ public class Program4_NumberOfIsland {
 				int newRow = rowDir[i] + p.r;
 				int newCol = colDir[i] + p.c;
 				
-				if((newRow>=0 && newRow<row) && (newCol>=0 && newCol<col) && (arr[newRow][newCol]==1)) {
+				if((newRow>=0 && newRow<rowLength) && (newCol>=0 && newCol<colLength) && (arr[newRow][newCol]==1)) {
 					arr[newRow][newCol]=2;
 					queue.add(new FlipPair(newRow,newCol));
 				}

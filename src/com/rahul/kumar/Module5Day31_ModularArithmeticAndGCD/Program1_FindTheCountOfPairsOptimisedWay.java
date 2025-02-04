@@ -1,6 +1,9 @@
 
 package com.rahul.kumar.Module5Day31_ModularArithmeticAndGCD;
 
+//<Question> : Given N array elements. Find the count of pairs ( i, j ) such that ( arr [ i ] + arr [ j ] ) % m = 0.
+//NOTE :      i !=  j and pair ( i, j ) is same as pair ( j, i )
+
 public class Program1_FindTheCountOfPairsOptimisedWay {
 
 	static void countPairs(int []arr,int M) {
@@ -20,7 +23,7 @@ public class Program1_FindTheCountOfPairsOptimisedWay {
 			frq[val]++;
 			
 		}
-		System.out.println(ans);
+		System.out.println(ans);                            //           TC = O[N+M]   SC = O[M]
 	}
 	public static void main(String[] args) {
 

@@ -12,7 +12,7 @@ public class Program1_ReturnTheSmallestNumberInTheFormOfArrayForPositiveValue1 {
 			int value = arr[i];
 			freqArr[value]++;
 		}
-
+      System.out.println(Arrays.toString(freqArr));
 		int k = 0;
 		for (int i = 0; i <= 9; i++) {
 			int freq = freqArr[i];

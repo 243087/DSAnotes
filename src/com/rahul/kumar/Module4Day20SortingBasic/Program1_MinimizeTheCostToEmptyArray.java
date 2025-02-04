@@ -2,6 +2,7 @@ package com.rahul.kumar.Module4Day20SortingBasic;
 
 import java.util.Arrays;
 
+// Given int[n] minimize the cost to empty given array where (cost of removing an element = sum of elements left in the array).
 public class Program1_MinimizeTheCostToEmptyArray {
 
 	static void costDeduct(int []arr) {
@@ -20,7 +21,7 @@ public class Program1_MinimizeTheCostToEmptyArray {
 		System.out.println("Sorted to Descending order "+Arrays.toString(arr));      // for sorting TC = O[NlogN]     SC = O[1]
 		
 		long totalCost =0;
-		for(int i=0;i<arr.length;i++) {                                       // for this aglgorithm  TC = O[N]   
+		for(int i=0;i<arr.length;i++) {                                       // for this algorithm  TC = O[N]   
 			long contri =(i+1)*arr[i];
 			totalCost += contri;
 		}

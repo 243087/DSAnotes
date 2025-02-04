@@ -27,6 +27,7 @@ public class Program4_GivenArrayArrangeThemSuchThatTheyFormLargestNumber {
 			}
 			
 		});
+		System.out.println(al);
 		StringBuilder result = new StringBuilder();
 		for(int i=0;i<al.size();i++) {
 			int value = al.get(i);

@@ -3,6 +3,10 @@ package com.rahul.kumar.Module5Day26_ArraysInterviewQuestions;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+// <Question>: Given a set of non-overlapping interval in form id A[][]. Also given a new interval [start][end]. Task is to 
+//             insert this new [start][end] interval into the A[][].
+//  Note     : Intervals were initially sorted based on the start time.
+
 public class Program2_ReturnSortedListOfAllIntervalAfterMerging {
 
 	static void mergeInterval(int [][]arr,int []interval) {

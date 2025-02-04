@@ -17,6 +17,7 @@ public class Program1_FindTheFrequencyOfElementProvidedInTheQueryOptimisedWayUsi
 				hm.put(key,freq+1);
 			}
 		}
+		System.out.println(hm);
 		for(int j=0;j<query.length;j++) {
 			int value = query[j];
 			if(hm.containsKey(value)==false) {

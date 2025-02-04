@@ -11,11 +11,11 @@ public class Program3_FindLeftViewOfBinaryTree {
         HashMap<Integer,Integer> levels = new HashMap<>();
         
         // Initialize queue to store node and its depth
-        Queue<Pair> queue = new LinkedList<>();
+        Queue<Pair> queue = new LinkedList<>(); 
         
         queue.add(new Pair(root,0));
 
-        int maxDepth = 0;
+        int maxDepth = 0;                                                //            TC = O[N]      SC = O[N]
         
         while (!queue.isEmpty()) {
             Pair p = queue.remove();
@@ -41,7 +41,7 @@ public class Program3_FindLeftViewOfBinaryTree {
 
         // Print out the nodes level by level
         for (int i = 0; i <= maxDepth; i++) {
-            System.out.println(levels.get(i));                                  //            TC = O[N]      SC = O[N]
+            System.out.println(levels.get(i));                            
         }
     }
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ public class Program6_DeepCopyOfNormalLinkedListUsingSinglePointer {
 		Node temp = head;
 		HashMap<Node,Node> hm = new HashMap<>();
 		
-		// this while loop will create all the new node but mapping of node with each other not happen
+		// this while loop will create all the new node but mapping of node with each other not happen here
 		while(temp!=null) {
 			Node newTemp = new Node(temp.value);
 			hm.put(temp,newTemp);

@@ -2,6 +2,7 @@ package com.rahul.kumar.Module5Day26_ArraysInterviewQuestions;
 
 import java.util.HashSet;
 
+// <Question> : Given an Integer array A[], find the first missing positive integer.	
 public class Program3_GivenArrayFindTheFirstMissingPositiveElementOptimiseWay {
 
 	static int missingElement(int []arr) {
@@ -19,7 +20,7 @@ public class Program3_GivenArrayFindTheFirstMissingPositiveElementOptimiseWay {
 	return -1;
 	}
 	public static void main(String[] args) {
-		int []arr = {1,2,3,4,5,5,7};
+		int []arr = {-1,1,2,3,4,5,6,7};
 		System.out.println(missingElement(arr));
 	}
 }

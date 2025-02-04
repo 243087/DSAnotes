@@ -15,7 +15,7 @@ public class Program7_EqualPartitionOfBinaryTree {
 		
 		long need = total/2;
 		
-		if(hasEqualSum(root,need)==1)
+		if(hasEqualSum(root,need)==1)                                    //      TC = O[N^2]         SC = O[N]
 			return 1;
 		
 		return 0;

@@ -8,6 +8,7 @@ public class Program3_InsertionInLinkedListAtKthIndex {
 		Node newNode = new Node(value);
 		if(head == null)
 			return newNode;
+		
 		if(index==0) {
 			newNode.next = head;
 			return newNode;
@@ -19,7 +20,7 @@ public class Program3_InsertionInLinkedListAtKthIndex {
 		newNode.next = temp.next;
 		temp.next = newNode;
 		
-		return head;
+		return head;                                           //          TC = O[K]                SC= O[1]
 	}
 	 public static void printList(Node head) {
 	        Node temp = head;
@@ -27,7 +28,7 @@ public class Program3_InsertionInLinkedListAtKthIndex {
 	            System.out.print(temp.value + " ");
 	            temp = temp.next;
 	        }
-	        System.out.println();                                   //          TC = O[K]                SC= O[1]
+	        System.out.println();                                  
 	    }
 	public static void main(String[] args) {
 	       Node head = new Node(23);
@@ -37,7 +38,7 @@ public class Program3_InsertionInLinkedListAtKthIndex {
 	       head.next.next.next.next = new Node(8);
 	       head.next.next.next.next.next = new Node(3);
 	       
-	       int index = 10;
+	       int index = 3;
 	       int value = 87;
 	       Node element = insertElement(head,value,index);
 	       printList(element);

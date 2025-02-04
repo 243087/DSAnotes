@@ -14,16 +14,16 @@ public class Program5_GivenIncreasingAndDecreasingArrayWithDistictElementFindMax
 		int r = arr.length-1;
 		while(l<=r) {
 			int mid = l +(r-l)/2;
-			if(safeGet(arr,mid) > safeGet(arr,mid-1) && safeGet(arr,mid) > safeGet(arr,mid+1)) {  //                 5(mid)
-				return arr[mid];                                                 // this if cond is for like            1   4
-			}                                                                   //                                   0
+			if(safeGet(arr,mid) > safeGet(arr,mid-1) && safeGet(arr,mid) > safeGet(arr,mid+1)) {  //               
+				return arr[mid];                                               
+			}                                                                   
 			
-			if(safeGet(arr,mid) > safeGet(arr,mid-1) && safeGet(arr,mid) < safeGet(arr,mid+1)) {  //                 5
-				l = mid+1;                                               //     this if cond is for like           1(mid) 4
-			}                                                            //                                       0        
-			else {                                                       //      this else cond is for               5
-				r = mid-1;                                               //                                        1   4(mid) 
-			}                                                            //                                              3
+			if(safeGet(arr,mid) > safeGet(arr,mid-1) && safeGet(arr,mid) < safeGet(arr,mid+1)) {  
+				l = mid+1;                                               
+			}                                                                 
+			else {                                                       
+				r = mid-1;                                             
+			}                                                           
 		}
 		return -1;
 	}

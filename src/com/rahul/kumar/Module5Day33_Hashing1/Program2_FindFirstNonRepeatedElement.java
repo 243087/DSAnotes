@@ -22,4 +22,3 @@ public class Program2_FindFirstNonRepeatedElement {
 		nonRepeated(arr);
 	}
 }
-//   We can't solve this by using Hashmap bcoz hashmap doesn't store keys in the ordered way

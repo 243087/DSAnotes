@@ -5,7 +5,7 @@ public class Program1_BinaryTreePreOrderTraversal {
 	static void printPreorder(ChildTreeNode node) {
 		if (node == null)
             return;
-		System.out.println(node.value);
+		System.out.print(node.value+" ");
 		printPreorder(node.left);
 		printPreorder(node.right);                                  //           TC = O[N]            SC = O[H]
 	}

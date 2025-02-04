@@ -5,7 +5,7 @@ package com.rahul.kumar.Module6Day37_Searching_BinarySearch;
 //Note :  Duplicates are adjacent to each other and array isn't necessarily sorted.    
 public class Program4_InArrayEveryElementOccursTwiceExceptOneFindThatElementByBinary {
 
-	static int safeGet(int []arr, int index) {
+	static int safeGet(int []arr, int index) {            //   Asked in Google
 		if(index>=0 && index<arr.length)
 			return arr[index];
 		return Integer.MAX_VALUE;

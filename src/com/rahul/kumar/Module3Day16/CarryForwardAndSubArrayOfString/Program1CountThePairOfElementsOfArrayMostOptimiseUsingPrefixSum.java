@@ -25,7 +25,7 @@ public class Program1CountThePairOfElementsOfArrayMostOptimiseUsingPrefixSum {
 		
 		
 		int count =0;
-		for(int k=0;k<str.length()-1;k++) {
+		for(int k=0;k<str.length();k++) {
            if(str.charAt(k)=='a') {
         	   count += preSumArr[str.length()-1] - preSumArr[k];
            }

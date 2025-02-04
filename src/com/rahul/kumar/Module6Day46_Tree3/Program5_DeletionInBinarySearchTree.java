@@ -7,7 +7,7 @@ public class Program5_DeletionInBinarySearchTree {
 			return null;
 		if(root.val<value)
 			root.right = deleteKNode(root.right,value);
-		else if(root.val>value)
+		else if(root.val>value)                                 //          TC = O[N]    SC = O[N]
 			root.left = deleteKNode(root.left,value);
 		else {
 			// this case occurs when root.val == value

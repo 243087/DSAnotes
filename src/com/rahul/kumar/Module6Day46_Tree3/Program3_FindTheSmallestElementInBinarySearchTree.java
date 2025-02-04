@@ -10,7 +10,7 @@ public class Program3_FindTheSmallestElementInBinarySearchTree {
 		while(temp.left!=null) {
 			temp = temp.left;
 		}
-		return temp.val;
+		return temp.val;                                       //           TC = O[N]       SC = O[1]
 	}
 	public static void main(String[] args) {
 		TreeNode root = new TreeNode(5);

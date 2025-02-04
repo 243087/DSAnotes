@@ -1,7 +1,7 @@
 package com.rahul.kumar.Module5Day34_Hashing2;
 
 
-////Given an arr[N] and K. Check if there exists a pair (i,j) such that, arr[i] + arr[j] = K  &&  i!= j 
+//Given an arr[N] and K. Check if there exists a pair (i,j) such that, arr[i] + arr[j] = K  &&  i!= j 
 import java.util.HashSet;
 
 public class Program1_GivenArrayAndIntegerCheckPairSuchThatIplusJequalKOptimised {

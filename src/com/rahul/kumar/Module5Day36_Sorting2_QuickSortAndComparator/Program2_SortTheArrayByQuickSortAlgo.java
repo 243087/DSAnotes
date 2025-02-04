@@ -11,9 +11,10 @@ public class Program2_SortTheArrayByQuickSortAlgo {
 	static void solve(int []arr,int lo,int hi) {
 		if(lo<hi) {
 			int pi = quickSelect(arr,lo,hi);
+			System.out.println("print"+pi);
 			solve(arr,lo,pi-1);
 			solve(arr,pi+1,hi);
-		}
+		}                                                        //      TC = O[NlogN]        SC = O[LogN] 
 	}
 	static int quickSelect(int []arr, int lo, int hi) {
 		int pivotElement = arr[lo];
@@ -40,6 +41,6 @@ public class Program2_SortTheArrayByQuickSortAlgo {
 	}
 	public static void main(String[] args) {
 		int []arr = {54,26,93,17,77,31,44,55,20};
-		System.out.println(Arrays.toString(sortArray(arr)));                   //      TC = O[NlogN]        SC = O[LogN] 
+		System.out.println(Arrays.toString(sortArray(arr)));                
 	}
 }

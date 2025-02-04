@@ -28,7 +28,7 @@ public class Program6_GivenSortedArrayConstructBSTOptimised {
 			return;
 
 		printTree(node.left);
-		System.out.println(node.val);
+		System.out.print(node.val+" ");
 		printTree(node.right);
 	}
 }

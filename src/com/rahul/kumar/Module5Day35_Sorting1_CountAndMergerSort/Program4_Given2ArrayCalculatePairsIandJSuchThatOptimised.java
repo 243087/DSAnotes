@@ -2,7 +2,7 @@ package com.rahul.kumar.Module5Day35_Sorting1_CountAndMergerSort;
 
 import java.util.Arrays;
 
-////Given two array, A[ n ] and B[ m ]. Calculate number of pairs i , j such that A[ i ] > B[ j ].
+//Given two array, A[ n ] and B[ m ]. Calculate number of pairs i , j such that A[ i ] > B[ j ].
 public class Program4_Given2ArrayCalculatePairsIandJSuchThatOptimised {
 
 	static int checkPairs(int []arr1,int []arr2) {

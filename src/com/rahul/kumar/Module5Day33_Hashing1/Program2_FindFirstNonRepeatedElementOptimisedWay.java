@@ -16,6 +16,7 @@ public class Program2_FindFirstNonRepeatedElementOptimisedWay {
 				hm.put(key,freq+1);
 			}
 		}
+		System.out.println("Printing the HashMap "+hm);
 		for(int i=0;i<arr.length;i++) {
 		   int value = hm.get(arr[i]);
 		   if(value == 1) {

@@ -6,9 +6,9 @@ public class Program1_ImplementationOfAllStackMethodUsingArray {
 	static int arrSize = 5;
 	static int []arr = new int[arrSize];
 	static int top = -1;
-	static void push(int x) {
+	static void push(int x) {                                         //           TC = O[1]       SC = O[1]  for all method
 		if(top==arrSize-1) {
-			System.out.println("Stack overFlow can't add "+x);
+			System.out.println("Stack overFlow, can't add "+x);
 			return;
 		}
 		top = top+1;

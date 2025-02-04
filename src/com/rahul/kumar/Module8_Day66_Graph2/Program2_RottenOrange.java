@@ -36,7 +36,8 @@ public class Program2_RottenOrange {
 				}
 			}
 		}
-		for(int r=0;r<row;r++) {
+		// this code is for --> if it is not possible to become all the oranges rotten then we can just check any array has 1 
+		for(int r=0;r<row;r++) {     //  value and if we find the then we can directly return -1
 			for(int c=0;c<col;c++) {
 				if(arr[r][c]==1)
 					return -1;

@@ -8,7 +8,8 @@ import java.util.Comparator;
 
 
 
-//Given arr[N], sort the data in ascending order of count of factors.If count of factors are equal, then sort the elements on the basis of their values.
+// <Question> : Given arr[N], sort the data in ascending order of count of factors.If count of factors are equal, then sort the elements on the
+//              basis of their values.
 public class Program3_SortTheArrayOnBasicOfFactorsOfElementUsingComparator {
 
 	static ArrayList<Integer> factorsSort(ArrayList<Integer> al){
